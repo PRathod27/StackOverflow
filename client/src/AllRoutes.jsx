@@ -1,17 +1,16 @@
 import React from 'react'
-import { Route, Router, Routes } from 'react-router-dom'
+import { Route,  Routes } from 'react-router-dom'
 import Home from '../../client/src/Pages/Home/Home.jsx'
-import Auth from 'C:/React/stack/client/src/Pages/Auth/Auth.jsx'
+import Auth from '../../client/src/Pages/Auth/Auth'
 
 const AllRoutes = () => {
   return (
     
-    <Router>
+    
       <Routes>
-            <Route path='/Home' element = {<Home/>}/>
+            <Route path='/' element = {<Home/>}/>
             <Route path='/Auth' element = {<Auth/>} />
             </Routes>
-            </Router>
   
   )
 }
