@@ -31,7 +31,7 @@ import React from 'react'
 import './RightSidebar.css'
 import comment from '../../assests/comment.svg'
 import pen from '../../assests/pen.svg'
-// import blackLogo from '../../assets/blacklogo.svg'
+import icon from '../../assests/icon.svg'
 
 const Widget = () => {
     return (
@@ -58,7 +58,7 @@ const Widget = () => {
                     <p>Please welcome Valued Associates: #958 - V2Blast #959 - SpencerG</p>
                 </div>
                 <div className='right-sidebar-div-2'>
-                    {/* <img src={blackLogo} alt="pen" width='18'/> */}
+                    <img src={icon} alt="pen" width='18'/>
                     <p>Outdated Answers: accepted answer is now unpinned on Stack Overflow</p>
                 </div>
             </div>
