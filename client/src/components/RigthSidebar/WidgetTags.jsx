@@ -2,7 +2,7 @@ import React from 'react'
 
 const WidgetTags = () => {
 
-  const tags = ['c','javascript','java','pyhton','html','reactjs','javascript','firebase', 'php','server','mysql','mern', 'mongodb', 'datascience']
+  const tags = ['c','java','pyhton','html','reactjs','javascript','firebase', 'php','server','mysql','mern', 'mongodb', 'datascience']
   return (
     <div className='widget-tags'>
         <h3>Watched Tags</h3>

@@ -2,7 +2,7 @@ import React from 'react'
 import '../../App.css'
 import LeftSidebar from '../../components/LeftSidebar/LeftSidebar'
 import RightSidebar from '../../components/RigthSidebar/RightSidebar'
-// import HomeMainbar from '../../components/HomeMainbar/HomeMainbar'
+import HomeMainbar from '../../components/HomeMainbar/HomeMainbar'
 
 const Home = () => {
     return (
@@ -12,9 +12,9 @@ const Home = () => {
     flex: '1 0 auto'}}>
             <LeftSidebar />
             </div>
-            <div className='home-conatiner-1'>
-                <RightSidebar/>
-
+            <div className='home-conatiner-2'>
+            <HomeMainbar/>
+            <RightSidebar/>
             </div>
         </div>
     )
