@@ -7,12 +7,8 @@ import HomeMainbar from '../../components/HomeMainbar/HomeMainbar'
 const Home = () => {
     return (
         <div className='home-container-1'>
-            <div style={{margin: '20', height : '100%',display: 'flex', justifyContent: 'space-between',
-    margin: '0% auto',
-    flex: '1 0 auto'}}>
             <LeftSidebar />
-            </div>
-            <div className='home-conatiner-2'>
+            <div className='home-container-2'>
             <HomeMainbar/>
             <RightSidebar/>
             </div>
